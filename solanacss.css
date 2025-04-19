@@ -124,7 +124,7 @@ margin-bottom: 31.59px;
     grid-column: span 3;
 }
 .img1{
-    background: url("/assest/G-1.png");
+    background: url("assest/G-1.png");
     opacity: 60;
     padding: 76.59px 492.18px 67.41px 89px;
     background-size: cover;
@@ -161,7 +161,7 @@ color: rgba(255, 255, 255, 1);
 }
 
 .img2{
-    background: url("/assest/G-2.png");  
+    background: url("assest/G-2.png");  
     background-size: cover;
     background-repeat: no-repeat;  
     opacity: 60;
@@ -183,7 +183,7 @@ color: rgba(255, 255, 255, 1);
 ;
 }
 .img3{
-    background: url("/assest/G-3.png");  
+    background: url("assest/G-3.png");  
     background-size: cover;
     background-repeat: no-repeat; 
     opacity: 60;
@@ -191,7 +191,7 @@ color: rgba(255, 255, 255, 1);
     padding: 216.59px 30px 40.41px 36.56px;
 }
 .img4{
-    background: url("/assest/G-4.png");  
+    background: url("assest/G-4.png");  
     background-size: cover;
     background-repeat: no-repeat; 
     opacity: 60;
@@ -199,7 +199,7 @@ color: rgba(255, 255, 255, 1);
     padding: 216.59px 30px 40.41px 36.56px;
 }
 .img5{
-    background: url("/assest/G-5.png");  
+    background: url("assest/G-5.png");  
     background-size: cover;
     background-repeat: no-repeat; 
     opacity: 60;
@@ -207,7 +207,7 @@ color: rgba(255, 255, 255, 1);
     padding: 216.59px 30px 40.41px 36.56px;
 }
 .img6{
-    background: url("/assest/G-6.png");  
+    background: url("assest/G-6.png");  
     background-size: cover;
     background-repeat: no-repeat; 
     opacity: 60;
@@ -215,7 +215,7 @@ color: rgba(255, 255, 255, 1);
     padding: 216.59px 30px 40.41px 36.56px;
 }
 .img7{
-    background: url("/assest/G-7.png");  
+    background: url("assest/G-7.png");  
     background-size: cover;
     background-repeat: no-repeat; 
     opacity: 60;
@@ -330,6 +330,7 @@ margin-top: 3px;
 .doc-contents{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 39.45px;
 }
@@ -381,6 +382,7 @@ margin-top: 30px;
    margin-bottom: 104px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .solana-changelog-header-text{
@@ -419,6 +421,7 @@ padding: 2px 45px 3px 20px;
     max-width: 1140px;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 80px;
 }
