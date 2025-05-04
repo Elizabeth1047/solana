@@ -430,6 +430,11 @@ padding: 2px 45px 3px 20px;
     padding: 53px 70.4px 45px 61.25px;
     border-radius: 20px;
 }
+.contact-card2{
+    background-color:#19161C;
+    padding: 53px 70.4px 45px 61.25px;
+    border-radius: 20px;
+}
 .contact-card-header-text{
     font-family: Helvetica;
 font-weight: 400;
@@ -576,4 +581,111 @@ display: flex;
     }
     .footer-left-three span{
 margin-top: -4px;
+    }
+    @media (min-width: 320px) and (max-width: 1200px) {
+        .header-text-container {
+    align-items: center;
+}
+        .header-text-container h1 {
+    font-size: 54px;
+    line-height: 60px;
+}
+        .header-section  {
+            display: block;
+            margin: auto 15px;
+        }
+        .btn-container {
+    margin-bottom: 15px;}
+        .build-btn {
+    padding: 10px 10px 12px 10px;
+    font-size: 11px;
+}
+.stack-btn span {
+    font-size: 11px;
+}
+        .header-image {
+    width: 100%;
+    height: auto;
+}
+
+    .image-gallery, .text-gallary-container {
+        display: block;
+        margin: 10px;
+    }
+    .img1 {
+
+    padding: 56.59px 20.18px 57.41px 20px;}
+    .img1-header-text {
+   padding: 77.41px 0px 0px 0px;
+}
+.text-gallery{
+    display: block;
+}
+.documentation-container {
+    margin: 10px;
+}
+.documentation-content {
+    padding: 10px;
+}
+.doc-btn {
+    align-items: center;
+}
+.small-head-text {
+    font-size: 22px;
+    line-height: 23.6px;
+}
+    }
+    @media (min-width: 320px) and (max-width: 600px) {
+        .contact-content {
+    gap: 20px;
+}
+    .contact-card {
+    padding: 25px 30.4px 25px 31.25px;
+}
+.signup-text {
+    font-size: 8px;
+    line-height: 10px;
+    padding: 8px 15px;
+}
+
+    .contact-card2 {
+    padding: 33px 30.4px 35px 31.25px;
+}
+    .contact-card-header-text {
+    font-size: 26px;
+    line-height: 26.8px;
+    margin-bottom: 19px;
+}
+    .contact-card-text {
+    font-size: 10px;
+    line-height: 17.3px;
+    margin-bottom: 25.31px;
+    text-wrap: auto;
+}
+.social-btns {
+    flex-wrap: wrap;
+}
+    }
+    @media (min-width: 600px) and (max-width: 1200px) {
+        .image-gallery {
+    display: grid
+;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23.67px;
+    margin-bottom: 128px;
+}
+        .spaning {
+    grid-column: span 2;
+}
+.text-gallery {
+    display: grid
+;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 23.67px;
+    margin-bottom: 100px;
+}
+        .contact-content {
+        justify-content: center;
+        gap: 20px;
+        }
     }
