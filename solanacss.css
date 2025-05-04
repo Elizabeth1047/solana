@@ -608,9 +608,14 @@ margin-top: -4px;
     height: auto;
 }
 
-    .image-gallery, .text-gallary-container {
+    .image-gallery {
         display: block;
         margin: 10px;
+    }
+    .text-gallary-container {
+        display: block;
+        margin: 60px 10px 30px;
+        
     }
     .img1 {
 
@@ -618,8 +623,14 @@ margin-top: -4px;
     .img1-header-text {
    padding: 77.41px 0px 0px 0px;
 }
+.square-image{
+    margin-bottom: 10px;
+}
 .text-gallery{
     display: block;
+}
+.textcontent {
+    margin-bottom: 10px;
 }
 .documentation-container {
     margin: 10px;
